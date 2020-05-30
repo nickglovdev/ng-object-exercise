@@ -78,20 +78,51 @@ const empireStateBuilding = {
 /* Use dot notation to output all of the dimensions of the 
 Empire State Building to the console. */
 
-console.log(empireStateBuilding.height)
-console.log(empireStateBuilding.eastWestLength)
-console.log(empireStateBuilding.northSouthLength)
+// console.log(empireStateBuilding.height)
+// console.log(empireStateBuilding.eastWestLength)
+// console.log(empireStateBuilding.northSouthLength)
 
-const stories = "stories"
-console.log(empireStateBuilding[stories])
-const address = "address"
-console.log(empireStateBuilding[address])
-const squareFeet = "squareFeet"
-console.log(empireStateBuilding[squareFeet])
-const cost = "cost"
-console.log(empireStateBuilding[cost])
-const owner = "owner"
-console.log(empireStateBuilding[owner])
-const architect = "architect"
-console.log(empireStateBuilding[architect])
+// const stories = "stories"
+// console.log(empireStateBuilding[stories])
+// const address = "address"
+// console.log(empireStateBuilding[address])
+// const squareFeet = "squareFeet"
+// console.log(empireStateBuilding[squareFeet])
+// const cost = "cost"
+// console.log(empireStateBuilding[cost])
+// const owner = "owner"
+// console.log(empireStateBuilding[owner])
+// const architect = "architect"
+// console.log(empireStateBuilding[architect])
 
+const nashvilleSoftwareSchool = {
+    founded: 2012,
+    director: "John Wark",
+    instructors: {
+        fullTime: ["Jisie", "Brenda", "Steve", "Joe", "Andy"],
+        partTime: ["Zoe", "Nathan"]
+    },
+    address: "500 Interstate Blvd. S"
+}
+
+/* Output the names of the part-time instructors followed by the names of the full-time 
+instructors in the console. */
+
+// const partInstructors = nashvilleSoftwareSchool.instructors["partTime"]
+
+// for (let i = 0; i < partInstructors.length; i++) {
+//     console.log(partInstructors[i])
+// }
+
+// const fullTimeInstructors = nashvilleSoftwareSchool.instructors["fullTime"]
+// for (let i = 0; i < fullTimeInstructors.length; i++) {
+//     console.log(fullTimeInstructors[i])
+// }
+
+// const zoe = nashvilleSoftwareSchool.instructors["partTime"][0]
+// console.log(zoe)
+
+// const andy = nashvilleSoftwareSchool.instructors['fullTime'][4]
+// console.log(andy)
+
+console.log(`Hello`)
